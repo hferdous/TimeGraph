@@ -1,0 +1,12 @@
+Missing Data Statistics:
+Total points: 12000
+Missing points: 6002
+Missing percentage: 50.02%
+
+Missing percentage by variable:
+X1: 50.53%
+X2: 49.43%
+X3: 50.63%
+X4: 49.47%
+
+Note: Confounder U is always fully observed

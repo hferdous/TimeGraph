@@ -1,0 +1,7 @@
+True Nonlinear Causal Structure (Gaussian: 70%, Laplace: 30%):
+Format: (source, lag, target) => weight
+('X1', -2, 'X4') => 0.25
+('X4', 0, 'X3') => 0.35
+('X2', -3, 'X3') => 0.2
+('X3', -1, 'X2') => 0.3
+('X2', 0, 'X1') => 0.4

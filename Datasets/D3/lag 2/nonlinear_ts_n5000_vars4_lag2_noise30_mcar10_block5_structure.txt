@@ -1,0 +1,15 @@
+Nonlinear Causal Structure:
+Noise: 30% Gaussian, 70% Laplace
+MCAR: 10%, Block: 5%
+
+Equations:
+X4[t] = 0.25 * cos(X1[t-2] * pi/2) + trend4[t] + season4[t] + e4
+X3[t] = 0.35 * (X4[t])^2 + trend3[t] + season3[t] + e3
+X2[t] = 0.3 * sin(X3[t-1] * pi/2) + trend2[t] + season2[t] + e2
+X1[t] = 0.4 * (X2[t])^3 + trend1[t] + season1[t] + e1
+
+Causal Links:
+X1 --(cos, lag=2)--> X4: 0.25
+X4 --(power2, lag=0)--> X3: 0.35
+X3 --(sin, lag=1)--> X2: 0.3
+X2 --(power3, lag=0)--> X1: 0.4

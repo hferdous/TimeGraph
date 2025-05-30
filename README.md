@@ -1,4 +1,4 @@
-# TimeGraph: A Synthetic Benchmark Suite for Time-Series Causal Discovery
+# TimeGraph: Synthetic Benchmark Datasets for Robust Time-Series Causal Discovery
 
 This repository provides **TimeGraph**, a synthetic benchmark suite for time-series causal discovery. It offers a robust framework for generating diverse datasets under realistic conditions, enabling rigorous evaluation and comparison of causal discovery algorithms.
 

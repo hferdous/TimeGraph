@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use TimeGraph in your research, please cite the following."
+title: "TimeGraph: Synthetic Benchmark Datasets for Robust Time-Series Causal Discovery"
+authors:
+  - family-names: Ferdous
+    given-names: Muhammad Hasan
+    affiliation: University of Maryland, Baltimore County
+    orcid: https://orcid.org/0000-0002-7182-1274
+  - family-names: Hossain
+    given-names: Emam
+    affiliation: University of Maryland, Baltimore County
+  - family-names: Gani
+    given-names: Md Osman
+    affiliation: University of Maryland, Baltimore County
+date-released: 2025-06-02
+version: "1.0"
+doi: 10.48550/arXiv.2506.01361
+url: https://github.com/hferdous/TimeGraph
+repository-code: https://github.com/hferdous/TimeGraph
+license: MIT AND CC-BY-4.0
+type: dataset
+keywords:
+  - synthetic time series
+  - causal discovery
+  - benchmarks
+  - nonstationary data
+  - missing data
